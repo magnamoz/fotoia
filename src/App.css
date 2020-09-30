@@ -1,38 +1,51 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet');
+
+* {
+  background-color: #2D2D2D;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.principal {
+  align-items: center;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 35px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background: #5162FF;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background: #4da6ff;
+  color: #2D2D2D;
+}
+
+.areaBotoes {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 256px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+select {
+  font-size: 20px;
+  padding: 15px;
+  margin: 20px;
 }
